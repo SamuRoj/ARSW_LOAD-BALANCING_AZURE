@@ -170,6 +170,12 @@ http://52.155.223.248/
 http://52.155.223.248/fibonacci/1
 ```
 
+
+La ip de nuestro balanceador de carga es 74.178.111.69:
+![image](https://github.com/user-attachments/assets/822ef3cd-9d45-4777-a240-9276a3700c46)
+![image](https://github.com/user-attachments/assets/dfc36209-dc81-49ac-a854-76dc0354b719)
+
+
 2. Realice las pruebas de carga con `newman` que se realizaron en la parte 1 y haga un informe comparativo donde contraste: tiempos de respuesta, cantidad de peticiones respondidas con éxito, costos de las 2 infraestrucruras, es decir, la que desarrollamos con balanceo de carga horizontal y la que se hizo con una maquina virtual escalada.
 
 3. Agregue una 4 maquina virtual y realice las pruebas de newman, pero esta vez no lance 2 peticiones en paralelo, sino que incrementelo a 4. Haga un informe donde presente el comportamiento de la CPU de las 4 VM y explique porque la tasa de éxito de las peticiones aumento con este estilo de escalabilidad.
