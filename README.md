@@ -172,7 +172,11 @@ http://52.155.223.248/fibonacci/1
 
 
 La ip de nuestro balanceador de carga es 74.178.111.69:
+
+
 ![image](https://github.com/user-attachments/assets/822ef3cd-9d45-4777-a240-9276a3700c46)
+
+
 ![image](https://github.com/user-attachments/assets/dfc36209-dc81-49ac-a854-76dc0354b719)
 
 
