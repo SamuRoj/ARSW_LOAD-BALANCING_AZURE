@@ -38,6 +38,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     `npm install`
 
+
+![image](https://github.com/user-attachments/assets/4becdc0e-1419-4d86-b065-625f746c6d24)
+
 5. Para ejecutar la aplicación puede usar el comando `npm FibinacciApp.js`, sin embargo una vez pierda la conexión ssh la aplicación dejará de funcionar. Para evitar ese compartamiento usaremos *forever*. Ejecute los siguientes comando dentro de la VM.
 
     ` node FibonacciApp.js`
@@ -72,6 +75,14 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10 &
     newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10
     ```
+
+
+Instalación de newman:
+![image](https://github.com/user-attachments/assets/741e1423-5f4f-4d9d-bd98-e1b0839c1010)
+
+
+Modificar archivo `[ARSW_LOAD-BALANCING_AZURE].postman_environment.json`:
+![image](https://github.com/user-attachments/assets/b5a46190-a066-4d6a-b8ce-51268d32e643)
 
 10. La cantidad de CPU consumida es bastante grande y un conjunto considerable de peticiones concurrentes pueden hacer fallar nuestro servicio. Para solucionarlo usaremos una estrategia de Escalamiento Vertical. En Azure diríjase a la sección *size* y a continuación seleccione el tamaño `B2ms`.
 
