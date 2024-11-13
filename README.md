@@ -202,6 +202,41 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
 newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10
 ```
 
+
+Respuestas newMan balanceador de carga 4 peticiones
+Métricas VM
+
+
+ ![image](https://github.com/user-attachments/assets/09ac3f8c-7cce-4da7-b3f2-67f335071e5f)
+
+
+
+Métricas VM2
+
+
+ ![image](https://github.com/user-attachments/assets/8bfe7437-19e4-43cc-bce0-ade50da59758)
+
+
+
+Tablas
+
+
+ ![image](https://github.com/user-attachments/assets/a1ba7fc8-5690-4b9e-b744-41a445f28df0)
+
+
+
+ ![image](https://github.com/user-attachments/assets/c713316b-2c0a-4fa1-b374-ac9e54328c7c)
+
+ 
+
+
+ ![image](https://github.com/user-attachments/assets/6667c96c-15d9-4b8f-a25b-d5feacc2ee8f)
+
+
+
+![image](https://github.com/user-attachments/assets/a467c14d-a541-4e6e-ab7a-a6f2e18d4a95)
+
+
 **Preguntas**
 
 * ¿Cuáles son los tipos de balanceadores de carga en Azure y en qué se diferencian?, ¿Qué es SKU, qué tipos hay y en qué se diferencian?, ¿Por qué el balanceador de carga necesita una IP pública?
