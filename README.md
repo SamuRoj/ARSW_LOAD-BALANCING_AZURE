@@ -6,6 +6,10 @@
 ### Dependencias
 * Cree una cuenta gratuita dentro de Azure. Para hacerlo puede guiarse de esta [documentación](https://azure.microsoft.com/es-es/free/students/). Al hacerlo usted contará con $100 USD para gastar durante 12 meses.
 
+## Mauricio Monroy y Samuel Rojas
+
+**Nota:** Las respuestas a las preguntas se encuentran en el archivo ARSW_LAB9.pdf
+
 ### Parte 0 - Entendiendo el escenario de calidad
 
 Adjunto a este laboratorio usted podrá encontrar una aplicación totalmente desarrollada que tiene como objetivo calcular el enésimo valor de la secuencia de Fibonnaci.
@@ -173,6 +177,8 @@ forever start FibonacciApp.js
 Realice este proceso para las 3 VMs, por ahora lo haremos a mano una por una, sin embargo es importante que usted sepa que existen herramientas para aumatizar este proceso, entre ellas encontramos Azure Resource Manager, OsDisk Images, Terraform con Vagrant y Paker, Puppet, Ansible entre otras.
 
 #### Probar el resultado final de nuestra infraestructura
+
+**Nota:** Solo se lograron crear dos máquinas virtuales por restricciones de la suscripción de Azure.
 
 1. Porsupuesto el endpoint de acceso a nuestro sistema será la IP pública del balanceador de carga, primero verifiquemos que los servicios básicos están funcionando, consuma los siguientes recursos:
 
